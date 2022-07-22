@@ -1,6 +1,14 @@
 <my-app class="flex h-screen">loading</my-app>
 
-<link
-  href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-  rel="stylesheet"
-/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          'pv-blue-light': '#31b5ff',
+        },
+      },
+    },
+  };
+</script>
